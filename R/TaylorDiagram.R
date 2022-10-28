@@ -683,7 +683,7 @@ panel.taylor.setup <- function(x, y, subscripts, results, maxsd, cor.col, rms.co
 
 
   ## measured point and text
-  lpoints(results$sd.obs[subscripts[1]], 0, pch = 1, col = "black", cex = 1.5)
+  lpoints(results$sd.obs[subscripts[1]], 0, pch = 20, col = "black", cex = 1.5)
   #ltext(results$sd.obs[subscripts[1]], 0, text.obs, col = "purple", cex = 0.7, pos = 3)
 }
 
