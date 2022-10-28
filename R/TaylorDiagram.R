@@ -676,7 +676,7 @@ panel.taylor.setup <- function(x, y, subscripts, results, maxsd, cor.col, rms.co
   )
 
   ltext(
-    0.82 * maxsd, 0.82 * maxsd, "correlation",
+    0.82 * maxsd, 0.82 * maxsd, "Pearson correlation",
     srt = 315, cex = 0.7,
     col = cor.col
   )
